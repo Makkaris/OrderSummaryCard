@@ -1,0 +1,140 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    display:flex;
+    flex-flow:column;
+    width:100%;
+    align-items: center;
+    background-image: url(/img/pattern-background-desktop.svg);
+    background-repeat:repeat-x;
+    background-color:  hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+/*Principal header*/
+.body__header{
+    text-align: center;
+    p{
+        color:hsl(223, 47%, 23%);
+        font-size:20px;
+        a{
+            text-decoration: underline;
+            color:hsl(214, 39%, 65%);
+            transition:0.5s;
+        }
+        a:hover{
+            color:hsl(245, 86%, 52%);
+        }
+    }
+}
+
+/*Card styles*/
+.card{
+    margin-top:8%;
+    margin-bottom: 8%;
+    width:325px;
+    border-radius:15px;
+    background-color:white;
+    box-shadow: 0 10px 10px rgb(196, 196, 196);
+}
+
+/*Card header styles*/
+.card__header__img{
+    width:100%;
+    border-top-left-radius:15px;
+    border-top-right-radius: 15px;
+}
+.card__header__h1{
+    margin: 27px 0 10px 0;
+    text-align:center;
+    color:hsl(223, 47%, 23%);
+    font-weight:900;
+    font-size:21px;
+}
+
+/*Card main styles*/
+.card__main{
+    margin:0 40px 0 40px;
+}
+.card__main__text{
+    margin:auto;
+    width:90%;
+    text-align: center;
+    color:  hsl(224, 23%, 55%);
+    font-weight:500;
+    font-size:12px;
+}
+.card__main__pricingPlan{
+    display:flex;
+    justify-content: space-between;
+    margin: 20px 0 37px 0;
+    padding:10px;
+    align-items: center;
+    border-radius:10px;
+    background-color:hsl(225, 100%, 98%);
+    font-size:12px;
+    a{
+        color:hsl(245, 75%, 52%);
+    }
+    a:hover{
+        text-decoration: none;
+        color:hsl(245, 70%, 60%);
+    }
+}
+.card__main__pricingPlan__plan{
+    display:flex;
+}
+.card__main__pricingPlan__plan__img{
+    margin:0 12px 0 5px;
+    width:35px;
+    height:35px;
+}
+.card__main__pricingPlan__plan__text{
+    color:hsl(224, 23%, 55%);
+    b{
+        color:hsl(223, 47%, 23%);
+    }
+}
+
+/*Card main styles (buttons)*/
+.card__main__action{
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    font-size:12px;
+    font-weight:800;
+}
+.card__main__action-confirmation{
+    margin-bottom:15px;
+    width:100%;
+    border-radius:8px;
+    background-color:hsl(245, 75%, 52%);
+    box-shadow: 0 10px 10px rgb(196, 196, 196);
+    a{
+        display:block;
+        width:100%;
+        padding: 9px 0 9px 0;
+        color:white;
+        text-decoration:none;
+    }
+    a:hover{
+        border-radius:8px;
+        background-color:hsl(245, 70%, 60%);
+    }
+}
+.card__main__action-cancel{
+    margin-bottom:20px;
+    padding: 7px 0 7px 0;
+    a{
+        text-decoration: none;
+        color:hsl(224, 23%, 55%);
+    }
+    a:hover{
+        color:hsl(223, 47%, 23%);
+    }
+}
+      

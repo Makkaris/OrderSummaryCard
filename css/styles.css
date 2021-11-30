@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(/img/pattern-background-desktop.svg);
+  background-repeat: repeat-x;
+  background-color: #e0e8ff;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+/*Principal header*/
+.body__header {
+  text-align: center;
+}
+
+.body__header p {
+  color: #1f2f56;
+  font-size: 20px;
+}
+
+.body__header p a {
+  text-decoration: underline;
+  color: #83a1c9;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.body__header p a:hover {
+  color: #2d1bee;
+}
+
+/*Card styles*/
+.card {
+  margin-top: 8%;
+  margin-bottom: 8%;
+  width: 325px;
+  border-radius: 15px;
+  background-color: white;
+  -webkit-box-shadow: 0 10px 10px #c4c4c4;
+          box-shadow: 0 10px 10px #c4c4c4;
+}
+
+/*Card header styles*/
+.card__header__img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card__header__h1 {
+  margin: 27px 0 10px 0;
+  text-align: center;
+  color: #1f2f56;
+  font-weight: 900;
+  font-size: 21px;
+}
+
+/*Card main styles*/
+.card__main {
+  margin: 0 40px 0 40px;
+}
+
+.card__main__text {
+  margin: auto;
+  width: 90%;
+  text-align: center;
+  color: #7280a7;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.card__main__pricingPlan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px 0 37px 0;
+  padding: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  background-color: #f5f7ff;
+  font-size: 12px;
+}
+
+.card__main__pricingPlan a {
+  color: #3829e0;
+}
+
+.card__main__pricingPlan a:hover {
+  text-decoration: none;
+  color: #5e52e0;
+}
+
+.card__main__pricingPlan__plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card__main__pricingPlan__plan__img {
+  margin: 0 12px 0 5px;
+  width: 35px;
+  height: 35px;
+}
+
+.card__main__pricingPlan__plan__text {
+  color: #7280a7;
+}
+
+.card__main__pricingPlan__plan__text b {
+  color: #1f2f56;
+}
+
+/*Card main styles (buttons)*/
+.card__main__action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.card__main__action-confirmation {
+  margin-bottom: 15px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #3829e0;
+  -webkit-box-shadow: 0 10px 10px #c4c4c4;
+          box-shadow: 0 10px 10px #c4c4c4;
+}
+
+.card__main__action-confirmation a {
+  display: block;
+  width: 100%;
+  padding: 9px 0 9px 0;
+  color: white;
+  text-decoration: none;
+}
+
+.card__main__action-confirmation a:hover {
+  border-radius: 8px;
+  background-color: #5e52e0;
+}
+
+.card__main__action-cancel {
+  margin-bottom: 20px;
+  padding: 7px 0 7px 0;
+}
+
+.card__main__action-cancel a {
+  text-decoration: none;
+  color: #7280a7;
+}
+
+.card__main__action-cancel a:hover {
+  color: #1f2f56;
+}
+/*# sourceMappingURL=styles.css.map */
